@@ -30,7 +30,7 @@
 	],
 	"main": "lib/env.js",
 	"bin": {
-		"wp-env": "bin/wp-env"
+		"bedrock-wp-env": "bin/wp-env"
 	},
 	"dependencies": {
 		"chalk": "^4.0.0",
@@ -48,8 +48,5 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	},
-	"scripts": {
-		"test": "echo \"Error: run tests from root\" && exit 1"
 	}
 }
