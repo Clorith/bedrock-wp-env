@@ -1,6 +1,10 @@
-<!-- Learn how to maintain this file at https://github.com/WordPress/gutenberg/tree/HEAD/packages#maintaining-changelogs. -->
+## 4.5.0 (2022-04-02)
 
-## Unreleased
+### Enhancements
+- Added support for the `postSetupCommands` config option, allowing for CLI commands to be triggered on a new site.
+
+## Bug fixes
+- Remove default files added by the WordPress Docker image to the project root every time the environment is started.
 
 ## 4.2.0 (2022-01-27)
 
