@@ -444,12 +444,13 @@ You can customize the WordPress installation, plugins and themes that the develo
 
 `.wp-env.json` supports six fields for options applicable to both the tests and development instances.
 
-| Field          | Type           | Default                                | Description                                                                                                                      |
-| -------------- | -------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `"phpVersion"` | `string\|null` | `null`                                 | The PHP version to use. If `null` is specified, `wp-env` will use the default version used with production release of WordPress. |
-| `"port"`       | `integer`      | `8888` (`8889` for the tests instance) | The primary port number to use for the installation. You'll access the instance through the port: 'http://localhost:8888'.       |
-| `"config"`     | `Object`       | See below.                             | Mapping of wp-config.php constants to their desired values.                                                                      |
-| `"mappings"`   | `Object`       | `"{}"`                                 | Mapping of WordPress directories to local directories to be mounted in the WordPress instance.                                   |
+| Field                 | Type          | Default                                | Description                                                                                                                        |
+|-----------------------|---------------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `"phpVersion"`        | `string\null` | `null`                                 | The PHP version to use. If `null` is specified, `wp-env` will use the default version used with production release of WordPress.   |
+| `"port"`              | `integer`     | `8888` (`8889` for the tests instance) | The primary port number to use for the installation. You'll access the instance through the port: 'http://localhost:8888'.         |
+| `"config"`            | `Object`      | See below.                             | Mapping of wp-config.php constants to their desired values.                                                                        |
+| `"mappings"`          | `Object`      | `"{}"`                                 | Mapping of WordPress directories to local directories to be mounted in the WordPress instance.                                     |
+| `"postSetupCommands"` | `Array`       | `"[]"`                                 | An array of CLI commands to be ran after the WP site has been automatically set up.                                                |
 
 _Note: the port number environment variables (`WP_ENV_PORT` and `WP_ENV_TESTS_PORT`) take precedent over the .wp-env.json values._
 
