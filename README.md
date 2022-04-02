@@ -10,15 +10,15 @@ Ensure that Docker is running, then:
 
 ```sh
 $ cd /path/to/wordpress/project
-$ npm -g i @wordpress/env
-$ wp-env start
+$ npm -g i Clorith/bedrock-wp-env
+$ bedrock-wp-env start
 ```
 
 The local environment will be available at http://localhost:8888 (Username: `admin`, Password: `password`).
 
 ## Prerequisites
 
-`wp-env` requires Docker to be installed. There are instructions available for installing Docker on [Windows 10 Pro](https://docs.docker.com/docker-for-windows/install/), [all other versions of Windows](https://docs.docker.com/toolbox/toolbox_install_windows/), [macOS](https://docs.docker.com/docker-for-mac/install/), and [Linux](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script).
+`bedrock-wp-env` requires Docker to be installed. There are instructions available for installing Docker on [Windows 10 Pro](https://docs.docker.com/docker-for-windows/install/), [all other versions of Windows](https://docs.docker.com/toolbox/toolbox_install_windows/), [macOS](https://docs.docker.com/docker-for-mac/install/), and [Linux](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script).
 
 Node.js and NPM are required. The latest LTS version of Node.js is used to develop `wp-env` and is recommended.
 
@@ -33,20 +33,20 @@ You will want to add the following files to your `.gitignore` file, as they are 
 
 ### Installation as a global package
 
-After confirming that the prerequisites are installed, you can install `wp-env` globally like so:
+After confirming that the prerequisites are installed, you can install `bedrock-wp-env` globally like so:
 
 ```sh
-$ npm -g i @wordpress/env
+$ npm -g i Clorith/bedrock-wp-env
 ```
 
-You're now ready to use `wp-env`!
+You're now ready to use `bedrock-wp-env`!
 
 ### Installation as a local package
 
 If your project already has a package.json, it's also possible to use `wp-env` as a local package. First install `wp-env` locally as a dev dependency:
 
 ```sh
-$ npm i @wordpress/env --save-dev
+$ npm i Clorith/bedrock-wp-env --save-dev
 ```
 
 Then modify your package.json and add an extra command to npm `scripts` (https://docs.npmjs.com/misc/scripts):
