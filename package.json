@@ -1,5 +1,5 @@
 {
-	"name": "@clorith/bedrock-wp-env",
+	"name": "@Clorith/bedrock-wp-env",
 	"version": "4.4.0",
 	"description": "A zero-config, self contained local WordPress environment for development and testing of sites built on the bedrock structure",
 	"author": "Clorith & The WordPress Contributors",
@@ -11,14 +11,14 @@
 		"docker",
 		"bedrock"
 	],
-	"homepage": "https://github.com/Clorith/berdock-wp-env",
+	"homepage": "https://github.com/Clorith/bedrock-wp-env",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Clorith/berdock-wp-env.git",
+		"url": "git+https://github.com/Clorith/bedrock-wp-env.git",
 		"directory": "/"
 	},
 	"bugs": {
-		"url": "https://github.com/Clorith/berdock-wp-env/issues"
+		"url": "https://github.com/Clorith/bedrock-wp-env/issues"
 	},
 	"directories": {
 		"lib": "lib",
