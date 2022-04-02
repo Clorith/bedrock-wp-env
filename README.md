@@ -10,7 +10,7 @@ Ensure that Docker is running, then:
 
 ```sh
 $ cd /path/to/wordpress/project
-$ npm -g i @Clorith/bedrock-wp-env
+$ npm -g i @clorith/bedrock-wp-env
 $ bedrock-wp-env start
 ```
 
@@ -36,7 +36,7 @@ You will want to add the following files to your `.gitignore` file, as they are 
 After confirming that the prerequisites are installed, you can install `bedrock-wp-env` globally like so:
 
 ```sh
-$ npm -g i @Clorith/bedrock-wp-env
+$ npm -g i @clorith/bedrock-wp-env
 ```
 
 You're now ready to use `bedrock-wp-env`!
@@ -46,7 +46,7 @@ You're now ready to use `bedrock-wp-env`!
 If your project already has a package.json, it's also possible to use `wp-env` as a local package. First install `wp-env` locally as a dev dependency:
 
 ```sh
-$ npm i @Clorith/bedrock-wp-env --save-dev
+$ npm i @clorith/bedrock-wp-env --save-dev
 ```
 
 Then modify your package.json and add an extra command to npm `scripts` (https://docs.npmjs.com/misc/scripts):

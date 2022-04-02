@@ -1,5 +1,5 @@
 {
-	"name": "@Clorith/bedrock-wp-env",
+	"name": "@clorith/bedrock-wp-env",
 	"version": "4.4.0",
 	"description": "A zero-config, self contained local WordPress environment for development and testing of sites built on the bedrock structure",
 	"author": "Clorith & The WordPress Contributors",
