@@ -1,3 +1,10 @@
+## 4.6.0 (2022-04-03)
+
+### Enhancements
+- Automatically implement `.index.php` file in the project root if one does not exist.
+- Allow the public directory to be configurable, and automatically detected as `web` or `public` by default.
+- Automatically generate a `.htaccess` file in the public directory if none exists, to allow pretty permalinks to work our of the box.
+
 ## 4.5.0 (2022-04-02)
 
 ### Enhancements
